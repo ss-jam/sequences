@@ -1,34 +1,32 @@
-package ssjam
+package com.github.ssjam.pst
 
-import org.scalatest.WordSpec
-
-class ReaderSpec extends WordSpec {
+class ReaderSpec extends UnitSpec {
   "A Reader" when {
 
     "initializing" should {
       "open a BAM file" in {
-        false
+        fail("Not implemented yet")
       }
     }
 
     "reading a sequence" should {
       "read a chunk of configured size" in {
-        false
+        fail("Not implemented yet")
       }
       "add meta data to the sequence" in {
-        false
+        fail("Not implemented yet")
       }
       "send the chunk to a processor" in {
-        false
+        fail("Not implemented yet")
       }
       "simulate a configured delay" in {
-        false
+        fail("Not implemented yet")
       }
     }
 
     "closing a BAM file" should {
       "notify processors stream is closed" in {
-        false
+        fail("Not implemented yet")
       }
     }
   }
